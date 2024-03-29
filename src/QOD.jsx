@@ -17,20 +17,83 @@ export default function () {
            {
                type: "radiogroup",
                name: "question2",
-               title: "What is the best type of icecream?",
+               title: "Is everyone is susceptible to foodborne illness?",
                choices: [
-                   "Buble Gum", "Lime", "Chocolate Moosetracks", "Cookies N' Cream"
+                   "Yes", "Most people are but not all", "Maybe", "No"
                ],
-               correctAnswer: "Slip and fall accidents"
+               correctAnswer: "Yes"
            },
            {
                type: "radiogroup",
                name: "question3",
-               title: "What is the most common cause of lifeguard injuries?",
+               title: "What slows the growth of harmful bacteria?",
                choices: [
-                   "Slip and fall accidents", "Pool chemicals", "Sunburns", "Sharks"
+                   "Leaving food in the sun", "Puting food in a dawer", "Puting food in the freezer", "Covering food with a towel"
                ],
-               correctAnswer: "Slip and fall accidents"
+               correctAnswer: "Puting food in the freezer"
+           },
+           {
+               type: "radiogroup",
+               name: "question4",
+               title: "What food is most likely to have germs?",
+               choices: [
+                   "Canned Beans", "Unwashed Produce", "Processed Meat", "Freshly Baked Bread"
+               ],
+               correctAnswer: "Unwashed Produce"
+           },
+           {
+               type: "radiogroup",
+               name: "question5",
+               title: "What tempurature should you keep your refrigerator at?",
+               choices: [
+                   "30F", "50F", "40F", "32F"
+               ],
+               correctAnswer: "40F"
+           },
+             {
+               type: "radiogroup",
+               name: "question6",
+               title: "Where should someone put frozen food that they want to thawe over a long time period?",
+               choices: [
+                   "In The Refrigerator", "In The Oven", "On The Counter", "In The Microwave"
+               ],
+               correctAnswer: "In The Refrigerator"
+           },
+           {
+               type: "radiogroup",
+               name: "question7",
+               title: "What kills bacteria?",
+               choices: [
+                   "Puting food back into the refrigerator", "Leaving food in the shade", "Lots of heat", "Nothing"
+               ],
+               correctAnswer: "Lots of heat"
+           },
+           {
+               type: "radiogroup",
+               name: "question8",
+               title: "What is a potential affect of eating contaminated food?",
+               choices: [
+                   "Long-term health problems", "Instant Death", "Gaining a super power", "Turning blue"
+               ],
+               correctAnswer: "Long-term health problems"
+           },
+           {
+               type: "radiogroup",
+               name: "question9",
+               title: "Does foodborne diseases affect vulnerable people harder than other groups?",
+               choices: [
+                   "Yes", "Maybe", "It depends...", "No"
+               ],
+               correctAnswer: "Yes"
+           },
+           {
+               type: "radiogroup",
+               name: "question10",
+               title: "Does globalization make food safety more complex and essential?",
+               choices: [
+                   "Yes", "Only in the Western Hemisphere", "Only in the Middle East", "No"
+               ],
+               correctAnswer: "Yes"
            }];
    const nQuestion = Math.floor((Math.random() * questions.length))
    const surveyJson = {
