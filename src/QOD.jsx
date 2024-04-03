@@ -57,7 +57,7 @@ export default function () {
                choices: [
                    "In the refrigerator", "In the oven", "On the counter", "In the microwave"
                ],
-               CorrectAnswer: "In the refrigerator"
+               correctAnswer: "In the refrigerator"
            },
            {
                type: "radiogroup",
@@ -66,7 +66,7 @@ export default function () {
                choices: [
                    "Puting food into the refrigerator", "Leaving food in the shade", "Lots of heat", "Nothing"
                ],
-               CorrectAnswer: "Lots of heat"
+               correctAnswer: "Lots of heat"
            },
            {
                type: "radiogroup",
@@ -75,7 +75,7 @@ export default function () {
                choices: [
                    "Long-term health problems", "Instant death", "Gaining a super power", "Turning blue"
                ],
-               CorrectAnswer: "Long-term health problems"
+               correctAnswer: "Long-term health problems"
            },
            {
                type: "radiogroup",
@@ -84,7 +84,7 @@ export default function () {
                choices: [
                    "Yes", "Maybe", "It depends...", "No"
                ],
-               CorrectAnswer: "Yes"
+               correctAnswer: "Yes"
            },
            {
                type: "radiogroup",
@@ -93,7 +93,7 @@ export default function () {
                choices: [
                    "Yes", "Only in the Western Hemisphere", "Only in the Middle East", "No"
                ],
-               CorrectAnswer: "Yes"
+               correctAnswer: "Yes"
            }];
    const nQuestion = Math.floor((Math.random() * questions.length))
    const surveyJson = {
