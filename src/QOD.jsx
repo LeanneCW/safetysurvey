@@ -37,14 +37,14 @@ export default function () {
                name: "question4",
                title: "What food is most likely to have germs?",
                choices: [
-                   "Canned Beans", "Unwashed Produce", "Processed Meat", "Freshly Baked Bread"
+                   "Canned beans", "Unwashed produce", "Processed meat", "Freshly baked bread"
                ],
                correctAnswer: "Unwashed Produce"
            },
            {
                type: "radiogroup",
                name: "question5",
-               title: "What tempurature should you keep your refrigerator at?",
+               title: "What temperature should you keep your refrigerator at?",
                choices: [
                    "30F", "50F", "40F", "32F"
                ],
@@ -53,18 +53,18 @@ export default function () {
              {
                type: "radiogroup",
                name: "question6",
-               title: "Where should someone put frozen food that they want to thawe over a long time period?",
+               title: "Where should someone put frozen food that they want to thaw throughout the day?",
                choices: [
-                   "In The Refrigerator", "In The Oven", "On The Counter", "In The Microwave"
+                   "In the refrigerator", "In the oven", "On the counter", "In the microwave"
                ],
-               correctAnswer: "In The Refrigerator"
+               correctAnswer: "In the refrigerator"
            },
            {
                type: "radiogroup",
                name: "question7",
                title: "What kills bacteria?",
                choices: [
-                   "Puting food back into the refrigerator", "Leaving food in the shade", "Lots of heat", "Nothing"
+                   "Puting food into the refrigerator", "Leaving food in the shade", "Lots of heat", "Nothing"
                ],
                correctAnswer: "Lots of heat"
            },
@@ -73,14 +73,14 @@ export default function () {
                name: "question8",
                title: "What is a potential affect of eating contaminated food?",
                choices: [
-                   "Long-term health problems", "Instant Death", "Gaining a super power", "Turning blue"
+                   "Long-term health problems", "Instant death", "Gaining a super power", "Turning blue"
                ],
                correctAnswer: "Long-term health problems"
            },
            {
                type: "radiogroup",
                name: "question9",
-               title: "Does foodborne diseases affect vulnerable people harder than other groups?",
+               title: "Do foodborne diseases negatively affect vulnerable people more than other social groups?",
                choices: [
                    "Yes", "Maybe", "It depends...", "No"
                ],
@@ -97,7 +97,7 @@ export default function () {
            }];
    const nQuestion = Math.floor((Math.random() * questions.length))
    const surveyJson = {
-       title: "Lifeguard Safety",
+       title: "Food Safety Check-In Quiz",
        showCorrectAnswer: "always",
        showProgressBar: "bottom",
        firstPageIsStarted: true,
@@ -105,7 +105,7 @@ export default function () {
        pages: [{
            elements: [{
                type: "html",
-               html: "You are about to start a quiz on Lifeguard Safety. <br>You will have 30 seconds for every question and 60 seconds to end the quiz.<br>Enter your name below and click <b>Start Quiz</b> to begin."
+               html: "You are about to start a quiz on Food Safety. <br>You will have 30 seconds for every question and 60 seconds to end the quiz.<br>Enter your name below and click <b>Start Quiz</b> to begin."
            }, {
                type: "text",
                name: "username",
